@@ -1,6 +1,6 @@
 ---
-title: The Shape I'm In
-subtitle: a collective diary by Global Shapers around the world
+title: Gimmie Your Stimmie
+subtitle: Donate to those who are in need
 image: img/blue-background.jpeg
 blurb:
   heading: ' '
