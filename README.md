@@ -44,3 +44,25 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
   <use xlink:href="#SVG-ID"></use>
 </svg>
 ```
+
+## Notes
+
+form with:
+- Name field
+- Email?
+- Amount (volunteer hours/donation amount)	
+- Institution/org donated or volunteered at	
+- Location of institution/org	
+- Industry of institution/org
+	be able to: 	
+  - Upload photo of receipt?	
+  - Clause about matching.	
+  - Want the reminder to confirm your donation later? We’ll send you an email. Collect their email.
+
+  - Name
+- What they do blurb
+- What are they doing with donations
+- Covid response, if that exists
+- What other orgs they’re working with
+- Volunteer opportunitiess
+- Community they reach
