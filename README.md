@@ -66,3 +66,7 @@ form with:
 - What other orgs they’re working with
 - Volunteer opportunitiess
 - Community they reach
+
+Counter of hours and donations
+
+408-329-0016 Aadu
