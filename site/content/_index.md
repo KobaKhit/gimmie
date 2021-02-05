@@ -1,14 +1,17 @@
 ---
 title: Gimmie Your Stimmie
 subtitle: Donate to those who are in need
-image: img/blue-background.jpeg
+image: ''
 blurb:
   heading: ' '
   text: >-
-    Shaken by the Covid-19 pandemic, we began a collective diary to share our
-    perspectives and memorialize a historic time. We spend much of our time
-    taking in information from the media, our leaders, our friends and family,
-    and strangers on the internet. Now, we turn inward to reflect upon our own
-    experiences and how the chaos has affected each of us. With many voices, we
-    hope to create a community through shared experiences around the world.
+    As the pandemic keeps affecting the most vulnerable of us it is great to have recieved
+    the stimulus package. With the announcement of the new stimulus package and after reflecting on
+    what can we do better this time around we decided to give people an opportunity to donate  all or portion 
+    of your stimulus payment to the local non profits.
+
+    The first stimulus payments were <a class = 'link' href="https://blog.gao.gov/2020/04/14/as-aid-for-covid-19-arrives-so-might-fraud-heres-how-you-can-report-it/" target = "_blank">grossly missappropriated</a> and a large portion did not reach the ones
+    who needed it the most. We have an opportunity to make a difference during historically large scale crisis. 
+    We will honor you with a certificate and publish your profile on our website if you so wish once you donate to a local 
+    non profit.
 ---

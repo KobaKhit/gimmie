@@ -3,6 +3,9 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Homepage"
 
+[params]
+logo = "gimmie-logo.png"
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
