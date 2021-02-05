@@ -4,14 +4,16 @@
 		<h2 class="f2 b lh-title mb3">Local Organizations</h2>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ $dataJ := getJSON "url" }}
-				{{ range first 10 $dataJ }}
+				{{ $dataJ := getJSON "https://projects.propublica.org/nonprofits/api/v2/search.json?utf8=%E2%9C%93&adv_search=1&q_all=&q_phrase=&q_any=&q_none=&city=philadelphia&state%5Bid%5D=&ntee%5Bid%5D=&c_code%5Bid%5D=" }}
+				{{ range first 10 $dataJ.organizations }}
 					<div class="ph1-ns w-25-ns flex">
-						{{ .Render "li" }}
+						{{ partial "li" . }}
 					</div>
 				{{ end }}
-			{{end}}
+			
+				
 		</div>
+		Source: <a class = 'link' href = "https://projects.propublica.org/nonprofits/" target = '_blank'>Propublica Non Profit Explorer</a>
 
 <!-- 		<div class="tc">
 			<a href="/post" class="btn raise">Read more</a>
