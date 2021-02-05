@@ -4,11 +4,13 @@
 		<h2 class="f2 b lh-title mb3">Local Organizations</h2>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 1000000 (where .Site.RegularPages "Type" "post") }}
-				<div class="ph1-ns w-25-ns flex">
-					{{ .Render "li" }}
-				</div>
-			{{ end }}
+			{{ $dataJ := getJSON "url" }}
+				{{ range first 10 $dataJ }}
+					<div class="ph1-ns w-25-ns flex">
+						{{ .Render "li" }}
+					</div>
+				{{ end }}
+			{{end}}
 		</div>
 
 <!-- 		<div class="tc">
