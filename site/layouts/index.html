@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<!-- <h1> Uplift Your Community</h1> -->
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
 {{ partial "short-text" .Params.blurb}}
@@ -9,6 +10,12 @@
 <!-- {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
 
 {{ partial "orgs" . }}
+
+<div class = 'center' style = 'text-align: center;'>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckssT95hRhUs7HZry8UFW06hP7Et5Iz5NUNbLLEltRMN93gw/viewform?embedded=true" width="640" height="1026" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+</div>
 
 
 {{ end }}
