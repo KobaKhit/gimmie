@@ -3,13 +3,11 @@
 <!-- <h1> Uplift Your Community</h1> -->
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "city-short-text" .Params}}
 
 <!-- {{ partial "2-up" .Params }} -->
 
 <!-- {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
-
-{{ partial "orgs" . }}
 
 {{ partial "donation-form" . }}
 

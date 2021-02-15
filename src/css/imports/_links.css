@@ -2,6 +2,10 @@
    color: var(--highlight) !important;
  }
 
+.inline-links a{
+  display: inline-block;
+ }
+
 .link {
   text-decoration: none;
   transition: var(--hover-transition);
