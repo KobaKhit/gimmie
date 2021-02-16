@@ -9,7 +9,9 @@
 
 <!-- {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
 
-{{ partial "donation-form" . }}
+{{ partial "orgs" .Params.orgs }}
+
+{{ partial "donation-form" .Params }}
 
 
 

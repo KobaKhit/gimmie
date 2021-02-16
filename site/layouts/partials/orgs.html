@@ -3,7 +3,7 @@
 		
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
 				
-				{{ range $.Site.Data.orgs.phila }}
+				{{ range . }}
 					<div class="ph1-ns w-40-ns flex-auto mr1">
 						{{ partial "li" . }}
 					</div>
