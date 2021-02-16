@@ -62,7 +62,7 @@ label
   font-size: .875rem;
   font-weight: 800;
   color: var(--white);
-  background-color: var(--primary);
+  background-color: #a5926e ;
   border-radius: var(--border-radius);
   padding: var(--spacing-extra-small) var(--spacing-small);
   position: absolute;

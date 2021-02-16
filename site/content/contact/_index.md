@@ -2,7 +2,7 @@
 title: Contact
 logo: img/logo.png
 contact_entries:
-  - heading: Email
+  - heading: Email Us
     text: 'PhillyGlobalShapers @ gmail.com'
   
 ---
