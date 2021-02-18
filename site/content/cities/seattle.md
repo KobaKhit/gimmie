@@ -66,4 +66,14 @@ orgs:
       and supplying fresh food for the community.
     link: >-
       https://seattletilth.secure.nonprofitsoapbox.com/donate?utm_campaign=globalshapers
+  - description: >-
+      Focused on restorative justice through land restoration and sustainable
+      education. The Shared Spaces Foundation works to create community
+      facilities for people to gather, learn and grow together. By preserving
+      the land and reducing impact we can create safe places to rebuild
+      communities and focus on teaching sustainable skills to empower youth and
+      underserved people within the community.
+    name: Shared Spaces Foundation
+    link: >-
+      https://www.sharedspacesfoundation.com/contribute?utm_campaign=globalshapers
 ---
