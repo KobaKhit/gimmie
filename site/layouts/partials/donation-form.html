@@ -14,17 +14,15 @@
       <input name="amount" type="text" id="amount" placeholder="$ Amount" class="w-100">
       <label for="amount">Amount</label>
     </fieldset>
-    <fieldset class="flex-auto mb2 mb0-ns mr2-ns">
-      <label for="file" style = 'z-index: 99; opacity: 1'>Upload Receipt</label>
-      <input name="file" type="file" id="file" placeholder="File upload" class="w-80">
-      
+    <fieldset class="flex-auto mb2 mb0-ns mr1-ns">
+      <label for="file" style = 'z-index: 99; opacity: 1; line-height:2.2; font-size: 0.85rem;' >Upload Receipt</label>
+      <input name="file" type="file" id="file" placeholder="File upload" class="w-70" >
     </fieldset>
-    <fieldset class="">
+    <fieldset style = 'display:none'>
       <input name="city" type="hidden" id="city" value = '{{.}}'>
-      
     </fieldset>
-
-    <button class="btn mb3 w-100 w-auto-ns mb0-ns raise" type="submit">Submit</button>
+    
+    <button class="btn mb3 mb0-ns raise" type="submit">Submit</button>
 
   </form>
 </section>
