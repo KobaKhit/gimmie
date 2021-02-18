@@ -33,14 +33,6 @@ orgs:
       about responsible solutions that prevent people from going hungry.
     link: >-
       https://hungercoalition.salsalabs.org/give/index.html?utm_campaign=globalsshapers
-  - name: Share Food Program
-    description: >-
-      Share Food Program leads the fight against food insecurity in the
-      Philadelphia region, by serving an expansive, quality partner network of
-      community-based organizations and school districts engaged in food
-      distribution, education and advocacy.
-    link: >-
-      https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E187995&id=12&utm_campaign=globalsshapers
   - name: Philabundance
     description: >-
       Philabundance is the Delaware Valley’s largest hunger relief organization,
@@ -59,21 +51,6 @@ orgs:
       Give now or learn more at Philabundance.org.
     link: >-
       https://secure.philabundance.org/site/Donation2;jsessionid=00000000.app30122a?df_id=6318&mfc_pref=T&6318.donation=form1&NONCE_TOKEN=AED003904F79A1B9F8E7B3F599B56AF2&utm_campaign=globalshapers
-  - name: Step Up to the Plate
-    description: >-
-      Step Up to the Plate is a program created in response to the extreme
-      crisis of hunger that accompanied the COVID-19 pandemic,
-      disproportionately affecting
-
-      our city’s most vulnerable.
-    link: 'https://www.stepupphilly.org/donate?utm_campaign=globalshapers'
-  - name: Hunger Free PA
-    description: >-
-      The state’s single largest nonprofit provider of food resources and meals
-      to older Pennsylvanians and hungry families, working in partnership with
-      state and federal governments and nonprofit organizations.
-    link: >-
-      https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=KBJ7L2XFZ83MW&utm_campaign=globalshapers
   - name: SEAMAAC
     description: >-
       Founded more than 30 years ago by refugees, SEAMAAC's journey is a story
@@ -99,4 +76,27 @@ orgs:
       education, organizing, activism and advocacy: a People’s Agroecology.
     link: >-
       https://docs.google.com/forms/d/e/1FAIpQLSeI2ieZAT87CsQgPUEi3ItAJt5x5GeB__FgRH8suTKpKTW6iw/viewform
+  - name: Share Food Program
+    description: >-
+      Share Food Program leads the fight against food insecurity in the
+      Philadelphia region, by serving an expansive, quality partner network of
+      community-based organizations and school districts engaged in food
+      distribution, education and advocacy.
+    link: >-
+      https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E187995&id=12&utm_campaign=globalsshapers
+  - name: Step Up to the Plate
+    description: >-
+      Step Up to the Plate is a program created in response to the extreme
+      crisis of hunger that accompanied the COVID-19 pandemic,
+      disproportionately affecting
+
+      our city’s most vulnerable.
+    link: 'https://www.stepupphilly.org/donate?utm_campaign=globalshapers'
+  - name: Hunger Free PA
+    description: >-
+      The state’s single largest nonprofit provider of food resources and meals
+      to older Pennsylvanians and hungry families, working in partnership with
+      state and federal governments and nonprofit organizations.
+    link: >-
+      https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=KBJ7L2XFZ83MW&utm_campaign=globalshapers
 ---
