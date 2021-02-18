@@ -9,5 +9,4 @@ orgs:
     description: >-
       Established in 1967, Sound Generations is a comprehensive non-profit organization that serves older adults and adults with disabilities in King County. Sound Generations, previously known as Senior Services, supports almost 54,000 people annually. Our organization is Washington State’s largest provider of comprehensive services for aging adults and their loved ones located in King County.
     link: 'https://app.mobilecause.com/f/1o3y/n?vid=gqdwe'
-  
 ---

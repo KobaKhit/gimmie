@@ -16,9 +16,9 @@ collections: # A list of collections the CMS should be able to edit
         name: orgs
         widget: 'object'
         fields: 
-          - {label: "Name", name: "name", widget: 'string'}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Donation Link", name: "link", widget: "string"}
+          - {name: "name", label: "Name",  widget: 'string'}
+          - {name: "description", label: "Description", widget: "text"}
+          - {name: "link", label: "Donation Link", widget: "string"}
           
   
 
