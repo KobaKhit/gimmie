@@ -14,7 +14,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Impact Text", name: "impact_text", widget: "text"}
       - label: "Organizations"
         name: orgs
-        widget: object
+        widget: 'object'
         fields: 
           - {label: "Name", name: "name", widget: 'string'}
           - {label: "Description", name: "description", widget: "text"}
