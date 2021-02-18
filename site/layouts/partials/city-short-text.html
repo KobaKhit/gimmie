@@ -3,34 +3,33 @@
 
   <p style='max-width:700px; text-align: center;' class="center">Consider donating your stimulus check to one of our recommended organizations supporting food security. Though we all need safety and security at this time, the stimulus checks were distributed to people who may not need it as much as others right now.
   </p>
-  <div class = 'pb2'>
+  <div class = 'pb3'>
     <h4>
-      <button href = '#orgs' class = 'b br-pill' onClick="document.getElementById('donation-form').scrollIntoView();">
+      <button style = 'font-size: 1rem;' href = '#orgs' class = 'b br-pill' onClick="document.getElementById('donation-form').scrollIntoView();">
         🖤 Donate
       </button>
     </h4>
   </div>
-  <div style = 'max-width: 900px; ' class = 'center bg-highlight pa2 '>
-    <div id="js-legend" class="chart-legend"></div>
-    <canvas id="myChart" ></canvas>
+  <div style = 'max-width: 900px; ' class = 'center bg-highlight pb4 '>
+    <div id="js-legend" class="pb4 pt1"></div>
+    <canvas id="myChart" style = 'max-width: 700px; ' class = 'center' ></canvas>
   </div>
-  <p class = 'b center pt4'> “Food security means having, at all times, both physical and economic access to sufficient food to meet dietary needs for a productive and healthy life.”</p>
+  <p class = 'b center pt4 pb3'> “Food security means having, at all times, both physical and economic access to sufficient food to meet dietary needs for a productive and healthy life.”</p>
 
 </div>
 
-<div class = 'w-80 center pt3'>
-  <hr>
-  <div class="w-80 flex-ns mhn1-ns flex-wrap mb3 center pt4">
+<hr style = 'max-width: 900px'>
+<div class = 'w-100 w-60-ns center pt3'>
+  <div class="w-90 flex-ns mhn1-ns flex-wrap center pt2">
     <div class="ph1-ns w-30-ns flex-auto  ">
       <h2 class = "f2 b lh-title ">Double The Impact</h2>
     </div>
     
     <div class="ph1-ns w-50-ns flex-auto mr1">
-      <p>{{ .impact_text }}</p>
+      <p style = 'font-size: 0.9rem;'>{{ .impact_text }}</p>
 
     </div>
   </div>
-  <hr>
 </div>
 
 

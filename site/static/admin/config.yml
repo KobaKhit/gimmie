@@ -12,10 +12,13 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Impact Text", name: "impact_text", widget: "text"}
-      - {label: "Organizations", name: orgs, widget: object, fields: [
-          {label: "Name", name: "name", widget: string},
-          {label: "Description", name: "description", widget: "text"},
-          {label: "Donation Link", name: "link", widget: "string"}
-          ]}
+      - label: "Organizations"
+        name: orgs
+        widget: object
+        fields: 
+          - {label: "Name", name: "name", widget: 'string'}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Donation Link", name: "link", widget: "string"}
+          
   
 
