@@ -41,38 +41,40 @@ orgs:
       Share. Their hope is to help the community eat healthy!
     link: >-
       http://villacomunitaria.org/food-access-and-economic-development-2/?utm_campaign=globalshapers
-  - name: Filipino Community of Seattle - Food Bank and Senior Lunch
+  - name: Asian Counseling and Referral Services
     description: >-
-      The Filipino Community of Seattle (FCS) Senior Program has been in
-      existence for more than 20 years.  Housed at the Filipino Community
-      Center, the senior lunch program is made possible through our partnership
-      with the City of Seattle Human Services Division.   We serve lunch every
-      Monday, Tuesday, and Thursday.  Seniors enjoy the camaraderie of friends
-      who are mostly living alone or couples living by themselves.   The lunch
-      program is monitored by Seattle King County Public Health.  A dietician
-      inspects the food service every month to make sure the seniors are served
-      with culturally appropriate food.
+      Asian Counseling and Referral Services (ACRS) works to support Asian
+      American and Pacific Islander communities here in the Greater Seattle
+      Area. When it comes to food justice, ACRS has instituted a meal-delivery
+      program that delivers 2,200 hot meals and 2,100 grocery bags to seniors
+      and vulnerable residents on a weekly basis. Before the pandemic, ACRS ran
+      a food bank and emergency-feeding programs for Asian American and Pacific
+      Islander seniors.
     link: >-
-      https://filcommsea.org/index.php/donate/fcs-programs-support/?utm_campaign=globalshapers
-  - name: Tilth - Rainier Beach Urban Farm (East African Senior Meal Program)
+      https://secure3.convio.net/acrs/site/Donation2;jsessionid=00000000.app30128b?df_id=1500&mfc_pref=T&1500.donation=form1&NONCE_TOKEN=94893FAFF31A8A80C4CC7D8B9356A210
+  - name: Tilth - Rainier Beach Urban Farm
     description: >-
-      Tilth Alliance works in community with Washington farmers, gardeners and
-      eaters to build a sustainable, healthy and equitable food future. Rainier
-      Beach Urban Farm and Wetlands is Seattle's largest urban farm. Community
-      members of all ages participate in educational activities at the farm,
-      learning to grow food using practices that are healthy for the
-      environment, restoring the natural wetlands habitat that runs down the
-      middle of the farm, eating farm fresh food and learning about nutrition,
-      and supplying fresh food for the community.
+      Tilth Alliance launched a pay-what-you-can farm stand at Rainier Beach
+      Urban Farm & Wetlands last summer during a global pandemic. The weekly
+      market acted as not only an access point for fresh, local and organically
+      grown produce, but also as a space for the community to connect, get
+      outside and enjoy the public parks property on which it operates. Rainier
+      Beach Urban Farm and Wetlands is 8 acres to explore and learn, tucked
+      within a residential South Seattle neighborhood.
     link: >-
       https://seattletilth.secure.nonprofitsoapbox.com/donate?utm_campaign=globalshapers
   - description: >-
-      Focused on restorative justice through land restoration and sustainable
-      education. The Shared Spaces Foundation works to create community
-      facilities for people to gather, learn and grow together. By preserving
-      the land and reducing impact we can create safe places to rebuild
-      communities and focus on teaching sustainable skills to empower youth and
-      underserved people within the community.
+      The Shared Spaces Foundation is a nonprofit based in Seattle, WA focused
+      on restorative justice through land restoration and sustainable education.
+      In partnership with many local communities and organizations they are
+      working towards bringing a green shared space back to life in the Duwamish
+      River Valley. Shared Spaces plans to upgrade an existing but outdated 65'
+      greenhouse and build an outdoor nursery. Once renovated, they will be able
+      to grow native plants, fruits, vegetables and berries, using the space to
+      provide education and sustenance for the Duwamish Tribe and the
+      surrounding communities. They also plan to use this space to host
+      workshops and educational programs on urban farming, plant restoration,
+      and much more.
     name: Shared Spaces Foundation
     link: >-
       https://www.sharedspacesfoundation.com/contribute?utm_campaign=globalshapers
