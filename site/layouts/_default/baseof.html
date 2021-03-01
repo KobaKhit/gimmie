@@ -14,6 +14,19 @@
       <script src="{{ relURL . }}"></script>
     {{ end }}
 
+    <!-- google analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZJZWW82X1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QZJZWW82X1');
+    </script>
+
+
+    <!-- Chart -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -63,7 +76,7 @@
       // And for a doughnut chart
       data = {
           datasets: [{
-              data: [675, 235, 665,230],
+              data: [0, 0, 0,0],
               "backgroundColor":["#808c51","#565f35","#4680b4","#30567a"]
           }],
 
