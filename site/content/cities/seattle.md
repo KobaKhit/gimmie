@@ -64,12 +64,17 @@ orgs:
     link: >-
       https://seattletilth.secure.nonprofitsoapbox.com/donate?utm_campaign=globalshapers
   - description: >-
-      Focused on restorative justice through land restoration and sustainable
-      education. The Shared Spaces Foundation works to create community
-      facilities for people to gather, learn and grow together. By preserving
-      the land and reducing impact we can create safe places to rebuild
-      communities and focus on teaching sustainable skills to empower youth and
-      underserved people within the community.
+      The Shared Spaces Foundation is a nonprofit based in Seattle, WA focused
+      on restorative justice through land restoration and sustainable education.
+      In partnership with many local communities and organizations they are
+      working towards bringing a green shared space back to life in the Duwamish
+      River Valley. Shared Spaces plans to upgrade an existing but outdated 65'
+      greenhouse and build an outdoor nursery. Once renovated, they will be able
+      to grow native plants, fruits, vegetables and berries, using the space to
+      provide education and sustenance for the Duwamish Tribe and the
+      surrounding communities. They also plan to use this space to host
+      workshops and educational programs on urban farming, plant restoration,
+      and much more.
     name: Shared Spaces Foundation
     link: >-
       https://www.sharedspacesfoundation.com/contribute?utm_campaign=globalshapers
