@@ -7,7 +7,5 @@ contact_entries:
   
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+At this time, we are only supporting organizations in these cities: Philadelphia, Seattle. If you are Global Shaper looking to start the project in your own city, please reach out!
 
