@@ -94,3 +94,7 @@ hr {
     visibility: hidden;
 
 }
+
+#nav > .active {
+    border-bottom: 2px solid currentColor;
+}
