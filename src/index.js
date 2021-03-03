@@ -6,5 +6,3 @@ import "./css/main.css";
 console.log("🦊 Hello! Edit me in src/index.js");
 
 window.location.pathname;
-
-// $('#city').innerText = window.location.pathname;

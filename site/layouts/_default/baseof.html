@@ -9,6 +9,11 @@
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
       <script src="{{ relURL . }}"></script>
@@ -76,7 +81,7 @@
       // And for a doughnut chart
       data = {
           datasets: [{
-              data: [50, 0, 0,0],
+              data: [319, 0, 0,0],
               "backgroundColor":["#808c51","#565f35","#4680b4","#30567a"]
           }],
 
