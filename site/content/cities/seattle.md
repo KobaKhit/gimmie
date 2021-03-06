@@ -30,15 +30,15 @@ orgs:
       https://connect.clickandpledge.com/w/Form/7343f13f-545a-47c5-9169-3c2815ff27e4?utm_campaign=globalshapers
   - name: Villa Comunitaria - Salsa de la Vida
     description: >-
-      Villa Comunitaria empowers families in innovative ways that are culturally
-      relevant. They create a welcoming environment, with programs key to
-      helping Latinx immigrants navigate the complexities of the US immigration,
-      housing, health, education, and legal system so they can thrive and
-      prosper. In response to the Covid-19 crisis, 'Salsa de la Vida Community
-      farm' is a 6,000 sq.foot Farm at Marra Farm in South Park, Seattle. This
-      project is part of Villa Comunitaria's Food Access and Economic
-      Development program, shifting gears and creating an affordable weekly Farm
-      Share. Their hope is to help the community eat healthy!
+      Addressing the barriers BIPOC communities face accessing food has been a
+      focal point of Villa Comunitaria's efforts! Through the pandemic, Villa
+      has successfully implemented outreach and enrollment for Food Vouchers to
+      help low-income, BIPOC families access healthy produce and groceries for
+      themselves and their families. Your donation would allow our efforts to
+      expand and address the continuous disproportionate barriers families of
+      color face accessing essential food to nurture their families. All
+      donations are greatly appreciated from our diverse and beautiful
+      communities.
     link: >-
       http://villacomunitaria.org/food-access-and-economic-development-2/?utm_campaign=globalshapers
   - name: Asian Counseling and Referral Services
