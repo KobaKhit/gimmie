@@ -7,17 +7,7 @@
 
     {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
-
-    {{ $script := .Site.Data.webpack.main }}
-    {{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
-    {{ end }}
+    {{ block "footer" . }}{{ partial "footer" . }}{{end}} 
 
     <!-- google analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,110 +26,19 @@
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
       crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-doughnutlabel/2.0.3/chartjs-plugin-doughnutlabel.min.js"></script>
-    <script>
-      var generateLabels =  function(chart) {
-                    var data = chart.data;
-                    if (data.labels.length && data.datasets.length) {
-                        return data.labels.map(function(label, i) {
-                            var meta = chart.getDatasetMeta(0);
-                            var ds = data.datasets[0];
-                            var arc = meta.data[i];
-                            var custom = arc && arc.custom || {};
-                            var getValueAtIndexOrDefault = Chart.helpers.getValueAtIndexOrDefault;
-                            var arcOpts = chart.options.elements.arc;
-                            var fill = custom.backgroundColor ? custom.backgroundColor : getValueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
-                            var stroke = custom.borderColor ? custom.borderColor : getValueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
-                            var bw = custom.borderWidth ? custom.borderWidth : getValueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+    <!--  chart script -->
 
-							// We get the value of the current label
-							var value = chart.config.data.datasets[arc._datasetIndex].data[arc._index];
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
 
-                            return {
-                                // Instead of `text: label,`
-                                // We add the value to the string
-                                text: label + " : $" + value ,
-                                fillStyle: fill,
-                                strokeStyle: stroke,
-                                lineWidth: bw,
-                                hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
-                                index: i
-                            };
-                        });
-                    } else {
-                        return [];
-                    }
-                }
-      
-      var getTotal = function(myDoughnutChart) {
-        var sum = myDoughnutChart.config.data.datasets[0].data.reduce((a, b) => a + b, 0);
-        return `Total: $${sum}`;
-      }
-      
-      var ctx = document.getElementById('myChart').getContext('2d');
-      // And for a doughnut chart
-      data = {
-          datasets: [{
-              data: [319, 319, 0,0],
-              "backgroundColor":["#808c51","#565f35","#4680b4","#30567a"]
-          }],
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+      <script src="{{ relURL . }}"></script>
+    {{ end }}
 
-          // These labels appear in the legend and in the tooltips when hovering different arcs
-          labels: [
-              'Seattle Donations',
-              'Seattle Match',
-              'Philadelphia Donations',
-              'Philadelphia Match'
-          ]
-      };
-      options = {
-        cutoutPercentage: 65,
-        responsive:true,
-        plugins: {
-          doughnutlabel: {
-            labels: [
-              {
-              text: getTotal,
-              font: {
-                size: '30'
-              },
-              color: 'grey'
-            }
-            ]
-          }
-        },
-        legend: {
-            display: false,
-            position: 'top',
-            labels: {
-                
-            }
-            
-        }
-      };
-
-      // chart
-      var myDoughnutChart = new Chart(ctx, {
-          type: 'doughnut',
-          data: data,
-          options: options
-      });
-
-      // chart legend
-      $listSelector = $("#js-legend") //Your list element
-      $listSelector.append('<ul></ul>')
-      var chartLabels = generateLabels(myDoughnutChart)
-      $.each(chartLabels, function(i, obj) {
-        li = $('<li>')
-        if ($(window).width() > 800) {
-          li = li.css('display','inline')
-          } 
-        li = li.addClass('pr3').css('font-size','15px')
-        fill = $('<span>').html('&nbsp; &nbsp; &nbsp;').css("background-color", obj.fillStyle)
-        item = li.append(fill).append(' '+ obj.text)
-        $("#js-legend > ul").append(item)
-      });
-    </script>
   </body>
 </html>
