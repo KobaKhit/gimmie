@@ -7,7 +7,7 @@
       <label for="name">Name</label>
     </fieldset>
     <fieldset class="flex-auto mb2 mb0-ns mr2-ns">
-      <input name="email" type="text" id="email" placeholder="Email" class="w-100">
+      <input name="email" type="text" id="email" placeholder="Email (required)" class="w-100" required>
       <label for="email">Email</label>
     </fieldset>
     <fieldset class="flex-auto mb2 mb0-ns mr2-ns">
@@ -15,14 +15,15 @@
       <label for="amount">Amount</label>
     </fieldset>
     <fieldset class="flex-auto mb2 mb0-ns mr1-ns">
-      <label for="file" style = 'z-index: 99; opacity: 1; line-height:2.2; font-size: 0.85rem;' >Upload Receipt</label>
-      <input name="file" type="file" id="file" placeholder="File upload" class="w-70" >
+      <label for="file" style = 'z-index: 99; opacity: 1; line-height:2.2; font-size: 0.85rem; max-width: 250px' >Upload Receipt (required)</label>
+      <input name="file" type="file" id="file" placeholder="File upload"  style = 'max-width: 220px; opacity:0' required>
     </fieldset>
-    <fieldset style = 'display:none'>
+    <!-- <fieldset style = 'display:none'>
       <input name="city" type="hidden" id="city" value = '{{.}}'>
-    </fieldset>
-    
-    <button class="btn mb3 mb0-ns raise" type="submit">Submit</button>
+    </fieldset> -->
+  <fieldset class="flex-auto mb2 mb0-ns mr1-ns"></fieldset>
+    <button class="btn " type="submit">Submit</button>
+  </fieldset>
 
   </form>
 </section>
