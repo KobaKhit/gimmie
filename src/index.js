@@ -24,7 +24,7 @@ $(function($) {
 
 var city_data = {
   datasets: [{
-      data: [329, 329, 60,60],
+      data: [319, 319, 60,60],
       "backgroundColor":["#808c51","#565f35","#4680b4","#30567a"]
   }],
 
