@@ -24,7 +24,7 @@ $(function($) {
 
 var city_data = {
   datasets: [{
-      data: [319, 319, 60,60],
+      data: [319, 319, 160,160],
       "backgroundColor":["#808c51","#565f35","#4680b4","#30567a"]
   }],
 
@@ -39,8 +39,8 @@ var city_data = {
 
 var org_data = {
   datasets: [{
-      data: [20, 138, 400,100,100],
-      "backgroundColor":["#808c51","#565f35","#4680b4","#30567a","#D5A18E"]
+      data: [20, 138, 400,100,100,200],
+      "backgroundColor":["#808c51","#565f35","#4680b4","#30567a","#D5A18E","#624CAB"]
   }],
 
   // These labels appear in the legend and in the tooltips when hovering different arcs
@@ -49,7 +49,8 @@ var org_data = {
   'Tilth Alliance',
   'Shared Spaces',
   'Black Farmers Collective',
-  'Philabundance'
+  'Philabundance',
+  'The Food Trust'
   ]
 };
 
