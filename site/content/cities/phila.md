@@ -64,6 +64,12 @@ orgs:
       based on the principles of justice and equity for all. SEAMAAC provides a
       wide array of direct services and takes an active approach to building
       community leadership through education, organizing and advocacy.
+
+
+      In response to the pandemic and the inequities it magnified in
+      marginalized communities, SEAMAAC stepped up in multiple ways, including
+      hunger relief, providing well over 400,000 meals and boxes of food to
+      date, directly to needy individuals from all backgrounds.
     link: 'https://seamaac.org/donate/?utm_campaign=globalshapers'
   - name: Soil Generation
     description: >-
