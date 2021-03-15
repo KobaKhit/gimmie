@@ -74,8 +74,7 @@ orgs:
       health concerns, grow food and improve the environment. We will reach
       these goals through relationship building, honoring culture, community
       education, organizing, activism and advocacy: a People’s Agroecology.
-    link: >-
-      https://docs.google.com/forms/d/e/1FAIpQLSeI2ieZAT87CsQgPUEi3ItAJt5x5GeB__FgRH8suTKpKTW6iw/viewform
+    link: 'https://soilgeneration.org/support'
   - name: Share Food Program
     description: >-
       Share Food Program leads the fight against food insecurity in the
