@@ -24,7 +24,7 @@ $(function($) {
 
 var city_data = {
   datasets: [{
-      data: [319, 319, 360,360],
+      data: [2719, 2719, 560,560],
       "backgroundColor":["#808c51","#565f35","#4680b4","#30567a"]
   }],
 
@@ -39,19 +39,20 @@ var city_data = {
 
 var org_data = {
   datasets: [{
-      data: [20, 138, 400,100,300,200, 200],
+      data: [2600, 338,2000, 200,200,400,200,620],
       "backgroundColor":["#808c51","#565f35","#4680b4","#30567a","#D5A18E","#624CAB","#3B0D11"]
   }],
 
   // These labels appear in the legend and in the tooltips when hovering different arcs
   labels: [
-  'Hunger Free',
-  'Tilth Alliance',
-  'Shared Spaces',
-  'Black Farmers Collective',
-  'Philabundance',
-  'The Food Trust',
-  'SEAMAAC'
+    'Shared Spaces',
+    'Tilth Alliance',
+    'FEEST',
+    'ACRS',
+    'Soil Generation',
+    'SEAMAAC',
+    'Villa Comunitaria',
+    'Other'
   ]
 };
 
