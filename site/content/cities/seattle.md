@@ -39,8 +39,7 @@ orgs:
       color face accessing essential food to nurture their families. All
       donations are greatly appreciated from our diverse and beautiful
       communities.
-    link: >-
-      http://villacomunitaria.org/food-access-and-economic-development-2/?utm_campaign=globalshapers
+    link: 'https://www.givebigwa.org/VillaComunitaria'
   - name: Asian Counseling and Referral Services
     description: >-
       Asian Counseling and Referral Services (ACRS) works to support Asian
